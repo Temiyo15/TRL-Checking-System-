@@ -1,7 +1,7 @@
 
 public class Gui 
 {
-
+//GUI
 	public Gui() 
 	{
 	
