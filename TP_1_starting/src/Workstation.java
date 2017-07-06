@@ -146,7 +146,7 @@ public class Workstation
 		myWorkStation.startCheckout(myWorker.getWorker_ID());
 		
 		myWorkStation.checkOutLoop();
-		System.out.println("why/");
+	
 	}
 
 }
