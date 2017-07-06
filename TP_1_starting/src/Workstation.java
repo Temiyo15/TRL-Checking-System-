@@ -6,6 +6,7 @@ import java.util.Date;
 
 public class Workstation 
 {
+	//no
 	//This is our controller class
 	LocalDateTime checkoutDate ;
 	DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
@@ -145,7 +146,7 @@ public class Workstation
 		myWorkStation.startCheckout(myWorker.getWorker_ID());
 		
 		myWorkStation.checkOutLoop();
-		
+		System.out.println("why/");
 	}
 
 }
